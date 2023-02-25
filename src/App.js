@@ -1,14 +1,13 @@
-// Контекст
+// HTTP
 import React from 'react'
-import ComponentC from './components/ComponentC';
-import { UserProvider } from './components/userContext';
+import PostForm from './components/41-43/PostForm';
+import PostList from './components/41-43/PostList';
 
 function App() {
   return (
     <div className="App">
-      <UserProvider value='Andrey'>
-        <ComponentC />
-      </UserProvider>
+      <PostForm />
+      {/* <PostList /> */}
     </div>
   );
 }
